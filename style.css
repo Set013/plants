@@ -702,3 +702,103 @@ a:hover {
   margin-left: 405px;
   margin-top: -48px;
 }
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 130px;
+  left: 0px;
+  top: 3740px;
+  background: #ffffff;
+}
+
+.content {
+  position: absolute;
+  width: 1222px;
+  height: 50px;
+  left: 109px;
+  top: 40px;
+}
+
+.rolling_scopes {
+  height: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  margin-left: 506px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.year {
+  position: absolute;
+  height: 50px;
+  left: 21.43%;
+  right: 51.65%;
+  top: calc(50% - 50px / 2);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  margin-left: -222px;
+  margin-top: 0;
+}
+
+.github {
+  position: absolute;
+  height: 50px;
+  left: 59.34%;
+  top: calc(50% - 50px / 2);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  margin-left: -617px;
+  margin-top: -2px;
+  text-decoration: none;
+}
+
+.letterc {
+  position: absolute;
+  height: 50px;
+  left: 0%;
+  right: 89.56%;
+  top: calc(50% - 50px / 2);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  margin-top: 0;
+}
+
+.social {
+  width: 188px;
+  height: 50px;
+}
+
+.social_list {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  margin-left: 1197px;
+  margin-top: -42px;
+}
+
+.instagram,
+.facebook,
+.twitter,
+.pinterest {
+  width: 32px;
+  height: 32px;
+  margin-right: 22px;
+}
