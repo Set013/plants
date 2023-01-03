@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   background: #edf2ec;
   position: absolute;
@@ -5,6 +9,7 @@
   height: 134px;
   left: 0px;
   top: 0px;
+  margin: 0 auto;
 }
 
 .header_item {
@@ -55,9 +60,6 @@
 
 .header_house {
   height: 50px;
-  left: 61.04%;
-  right: 35.9%;
-  top: 42px;
   color: #010201;
   font-family: "Inika";
   font-style: normal;
@@ -68,9 +70,6 @@
 
 .header_about {
   height: 50px;
-  left: 67.29%;
-  right: 28.06%;
-  top: 42px;
   font-family: "Inika";
   font-style: normal;
   font-weight: 400;
@@ -81,9 +80,6 @@
 
 .header_service {
   height: 50px;
-  left: 75.14%;
-  right: 21.04%;
-  top: 42px;
   font-family: "Inika";
   font-style: normal;
   font-weight: 400;
@@ -94,9 +90,6 @@
 
 .header_price {
   height: 50px;
-  left: 82.15%;
-  right: 15.21%;
-  top: 42px;
   font-family: "Inika";
   font-style: normal;
   font-weight: 400;
@@ -107,9 +100,6 @@
 
 .header_contacts {
   height: 50px;
-  left: 87.99%;
-  right: 7.57%;
-  top: 42px;
   font-family: "Inika";
   font-style: normal;
   font-weight: 400;
@@ -143,8 +133,6 @@ a:hover {
 .leafs_welcome {
   width: 448.8px;
   height: 407.36px;
-  left: 109px;
-  top: 62px;
 }
 
 .welcome_sec {
@@ -158,48 +146,40 @@ a:hover {
 .welcome_main_text {
   width: 549px;
   height: 340px;
-  left: 782px;
-  top: 98px;
 }
 
 .wel_main_text {
   width: 549px;
   height: 101px;
-  left: 782px;
-  top: 98px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
   line-height: 50px;
   color: #717171;
+  margin-top: 2px;
 }
 
 .wel_sec_text {
   width: 525.44px;
   height: 105px;
-  left: 782px;
-  top: 241px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 35px;
   color: #636060;
+  margin-top: 42px;
 }
 
 .btn {
   width: 158px;
   height: 44px;
-  left: 782px;
-  top: 394px;
 }
 
 .learn_more {
   width: 104px;
   height: 16px;
-  left: 809px;
-  top: 408px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -219,8 +199,6 @@ a:hover {
   box-sizing: border-box;
   width: 158px;
   height: 44px;
-  left: 782px;
-  top: 394px;
   border: 2px solid #e06733;
   border-radius: 10px;
   background-color: #edf2ec;
@@ -232,6 +210,7 @@ a:hover {
   font-size: 16px;
   line-height: 20px;
   color: #000000;
+  margin-top: 28px;
 }
 
 .about {
@@ -254,22 +233,19 @@ a:hover {
 .houseplant {
   width: 464px;
   height: 479px;
-  left: 867px;
-  top: 93px;
   float: right;
 }
 
 .about_main_text {
   width: 463px;
   height: 102px;
-  left: 109px;
-  top: 161px;
   font-family: "Inika";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
   color: #499a18;
+  margin-top: 68px;
 }
 
 .orange_text {
@@ -279,14 +255,13 @@ a:hover {
 .about_sec_text {
   width: 605px;
   height: 208px;
-  left: 109px;
-  top: 303px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   color: #636060;
+  margin-top: 40px;
 }
 
 .service {
@@ -301,8 +276,6 @@ a:hover {
 .services_content {
   width: 1007px;
   height: 94px;
-  left: 109px;
-  top: 40px;
 }
 
 .text_services {
@@ -319,13 +292,12 @@ a:hover {
   color: #499a18;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 9px;
 }
 
 .services_btns {
   width: 559px;
   height: 50px;
-  left: 557px;
-  top: 69px;
 }
 
 .service_button_first {
@@ -345,6 +317,7 @@ a:hover {
   color: #e06733;
   background-color: #edf2ec;
   cursor: pointer;
+  margin-left: 8px;
 }
 
 .service_button_second {
@@ -364,9 +337,10 @@ a:hover {
   color: #e06733;
   background-color: #edf2ec;
   cursor: pointer;
+  margin-left: 8px;
 }
 
-.service_button_thrid {
+.service_button_third {
   box-sizing: border-box;
   position: absolute;
   width: 161px;
@@ -384,6 +358,7 @@ a:hover {
   color: #e06733;
   background-color: #edf2ec;
   cursor: pointer;
+  margin-left: 8px;
 }
 
 .service_button_first:hover {
@@ -396,7 +371,7 @@ a:hover {
   color: #ffffff;
 }
 
-.service_button_thrid:hover {
+.service_button_third:hover {
   background-color: #e06733;
   color: #ffffff;
 }
@@ -415,6 +390,8 @@ a:hover {
   height: 955px;
   left: 109px;
   top: 224px;
+  margin-left: 10px;
+  margin-top: -16px;
 }
 
 .service_item {
@@ -422,15 +399,13 @@ a:hover {
   height: 450px;
   margin-left: 0;
   margin-right: 0px;
-  margin-bottom: 55px;
+  margin-bottom: 39px;
 }
 
 .garden_care {
   display: block;
   width: 329px;
   height: 350px;
-  left: 110px;
-  top: 224px;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -453,6 +428,7 @@ a:hover {
   line-height: 20px;
   color: #e06733;
   margin-top: 10px;
+  margin-left: -3px;
 }
 
 .second_text {
@@ -463,6 +439,8 @@ a:hover {
   font-size: 16px;
   line-height: 10px;
   color: #717171;
+  margin-left: -4px;
+  margin-top: -5px;
 }
 
 .prices {
@@ -483,8 +461,8 @@ a:hover {
   position: absolute;
   width: 152px;
   height: 174.99px;
-  left: 1179px;
-  top: 270.01px;
+  left: 1174px;
+  top: 265.01px;
 }
 
 .main_text_prices {
@@ -499,18 +477,13 @@ a:hover {
   line-height: 50px;
   text-align: right;
   color: #000000;
-}
-
-.button_prices {
-  width: 162px;
-  height: 50px;
+  margin-top: 41px;
 }
 
 .button_price {
   position: absolute;
   background-color: #ffffff;
   box-sizing: border-box;
-  position: absolute;
   width: 162px;
   height: 50px;
   left: 1169px;
@@ -525,7 +498,9 @@ a:hover {
   text-align: center;
   color: #e06733;
   cursor: pointer;
+  margin-left: -1px;
 }
+
 .button_price:hover {
   background-color: #e06733;
   color: #ffffff;
@@ -557,11 +532,8 @@ a:hover {
   box-sizing: border-box;
   border: 1px solid #e3e1d5;
   border-radius: 20px;
-}
-
-.prices_items {
-  width: 250px;
-  height: 214.01px;
+  margin-top: 60px;
+  margin-left: -1px;
 }
 
 .price_item_one {
@@ -599,7 +571,7 @@ a:hover {
   height: 50px;
   background: #edf2ec;
   border-radius: 20px;
-  margin-top: 34px;
+  margin-top: 31px;
   margin-left: 41px;
   display: flex;
 }
@@ -622,7 +594,7 @@ a:hover {
   height: 50px;
   background: #edf2ec;
   border-radius: 20px;
-  margin-top: 34px;
+  margin-top: 32px;
   margin-left: 41px;
   display: flex;
 }
@@ -699,7 +671,7 @@ a:hover {
 .accordion_btn_city {
   width: 16px;
   height: 16px;
-  margin-left: 405px;
+  margin-left: 399px;
   margin-top: -48px;
 }
 
@@ -738,7 +710,6 @@ a:hover {
   position: absolute;
   height: 50px;
   left: 21.43%;
-  right: 51.65%;
   top: calc(50% - 50px / 2);
   font-family: "Inter";
   font-style: normal;
@@ -746,7 +717,7 @@ a:hover {
   font-size: 20px;
   line-height: 50px;
   color: #000000;
-  margin-left: -222px;
+  margin-left: -223px;
   margin-top: 0;
 }
 
@@ -762,7 +733,7 @@ a:hover {
   line-height: 50px;
   color: #000000;
   margin-left: -617px;
-  margin-top: -2px;
+  margin-top: 0px;
   text-decoration: none;
 }
 
@@ -770,7 +741,6 @@ a:hover {
   position: absolute;
   height: 50px;
   left: 0%;
-  right: 89.56%;
   top: calc(50% - 50px / 2);
   font-family: "Inter";
   font-style: normal;
@@ -790,7 +760,7 @@ a:hover {
   list-style-type: none;
   display: flex;
   justify-content: end;
-  margin-left: 1197px;
+  margin-left: 1207px;
   margin-top: -42px;
 }
 
